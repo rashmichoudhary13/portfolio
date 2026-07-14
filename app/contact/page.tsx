@@ -67,7 +67,7 @@ export default function Contact() {
           <motion.div variants={itemVariants} className="flex flex-col gap-5">
             {/* Email Card */}
             <a
-              href="mailto:rashmi.choudhary.dev@gmail.com"
+              href="mailto:rashmichoudhary019@gmail.com"
               className="flex items-center gap-5 p-5 bg-zinc-900/30 border border-zinc-800/80 rounded-2xl hover:border-teal-500/30 hover:bg-zinc-900/50 hover:scale-[1.01] transition-all duration-300 group"
             >
               <div className="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 group-hover:bg-teal-500/20 group-hover:text-teal-300 transition-colors duration-300 shrink-0">

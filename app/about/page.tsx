@@ -33,8 +33,8 @@ const itemVariants = {
 
 export default function About() {
     return (
-        <section id="about" className="relative w-full min-h-screen bg-[#111827] text-white px-6 md:px-10 overflow-hidden">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-4 items-start relative">
+        <section id="about" className="relative w-full min-h-screen bg-[#111827] text-white px-6 pb-10 lg:pb-0 md:px-10 overflow-hidden">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] lg:gap-4 items-start relative">
 
                 {/* Left Column: Biography Text */}
                 <div className="flex flex-col gap-12 py-10 md:py-18">
@@ -63,7 +63,7 @@ export default function About() {
                 </div>
 
                 {/* Right Column: Sticky Icon Cloud */}
-                <div className="lg:sticky lg:top-30 flex items-center justify-center h-[50vh] lg:h-[65vh] w-full">
+                <div className="lg:sticky lg:top-30 flex items-center justify-center h-auto lg:py-8 lg:py-0 lg:h-[65vh] w-full">
                     <MessageScrollerDemo />
                 </div>
 

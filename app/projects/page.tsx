@@ -84,7 +84,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="relative w-full min-h-screen bg-[#111827] text-white py-20 px-6 md:px-10 overflow-hidden flex flex-col items-center justify-center">
+    <section id="projects" className="relative w-full lg:min-h-screen bg-[#111827] text-white py-15 px-6 md:px-10 overflow-hidden flex flex-col items-center justify-center">
       {/* Ambient background glows */}
       <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-teal-500/5 rounded-full blur-[150px] pointer-events-none" />
       <div className="absolute bottom-1/3 left-1/4 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-[150px] pointer-events-none" />

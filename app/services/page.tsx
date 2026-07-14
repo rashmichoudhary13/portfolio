@@ -298,13 +298,13 @@ export default function Services() {
                             key={idx}
                             className="bg-zinc-900/30 backdrop-blur-md border border-zinc-800/80 hover:border-teal-500/20 rounded-3xl p-6 flex flex-col items-center gap-5 transition-colors duration-300"
                         >
-                            <span className="text-zinc-500 font-mono text-xs uppercase tracking-wider border-b border-zinc-800/80 pb-3 w-full text-center">
+                            <span className="text-gray-400 font-mono text-xs uppercase tracking-wider border-b border-zinc-800/80 pb-3 w-full text-center">
                                 {tech.category}
                             </span>
                             <div className="flex flex-wrap gap-4 justify-center pt-2">
                                 {tech.items.map((item, iIdx) => (
                                     <div key={iIdx} className="flex flex-col items-center gap-1.5 group">
-                                        <div className="w-12 h-12 rounded-xl bg-zinc-950/80 border border-zinc-800/80 flex items-center justify-center group-hover:border-teal-500/35 transition-all duration-300 shadow-md">
+                                        <div className="w-12 h-12 rounded-xl bg-zinc-950/80 border  border-teal-500/35 flex items-center justify-center group-hover:border-zinc-800/80 transition-all duration-300 shadow-md">
                                             <img
                                                 src={`https://cdn.simpleicons.org/${item.slug}/${item.color}`}
                                                 alt={item.name}
@@ -315,7 +315,7 @@ export default function Services() {
                                                 }}
                                             />
                                         </div>
-                                        <span className="text-[10px] text-zinc-400 group-hover:text-white transition-colors duration-300">
+                                        <span className="text-[10px]  text-white group-hover:text-zinc-400 transition-colors duration-300">
                                             {item.name}
                                         </span>
                                     </div>
@@ -326,7 +326,7 @@ export default function Services() {
                 </div>
 
                 {/* Dual Call-to-Actions (CTAs) */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
                     {/* View Projects CTA */}
                     <div className="bg-gradient-to-r from-zinc-950/80 to-zinc-900/40 backdrop-blur-md border border-zinc-800/80 rounded-3xl p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6 shadow-[0_0_30px_rgba(20,184,166,0.01)] hover:shadow-[0_0_45px_rgba(20,184,166,0.04)] hover:border-teal-500/20 transition-all duration-500 group">
                         <div className="flex flex-col gap-2">
